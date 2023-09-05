@@ -1,6 +1,8 @@
+'use client'
+
 import React from "react";
 
-import { Link } from "next/link";
+import Link from "next/link";
 
 const page = () => {
     return (
@@ -13,8 +15,8 @@ const page = () => {
                     here to provide you with the latest updates and insights.
                 </p>
                 <div className='btn_wrapper dflex mt-10'>
-                    <button className="btn">Sign Up</button>
-                    <button className="btn btn-secondary">Log In</button>
+                    <Link href='/signup' className="btn">Sign Up</Link>
+                    <Link href='/login' className="btn btn-secondary">Log In</Link>
                 </div>
             </div>
         </main>

@@ -39,8 +39,8 @@ const Header = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link href='/registration' className='menu_link'>
-                            Registration
+                        <Link href='/signup' className='menu_link'>
+                            Sign Up
                         </Link>
                     </li>
                     <li>
